@@ -1,4 +1,4 @@
-# App da Igreja
+# IBC App
 
 Este é o repositório do aplicativo mobile da minha igreja, desenvolvido com Flutter e Firebase. O objetivo é criar um ambiente digital de comunicação, aprendizado bíblico e engajamento espiritual entre os membros da igreja.
 
