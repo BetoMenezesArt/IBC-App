@@ -1,6 +1,35 @@
 import 'package:flutter/material.dart';
-import 'app.dart';
+import 'login_page.dart';
+import 'home_page.dart';
+import 'bible/bible_page.dart';
+import 'profile_page.dart';
 
 void main() {
   runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Seu App',
+      theme: ThemeData(
+        fontFamily: 'Inter',
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.grey.shade800,
+          primary: Colors.grey.shade800,
+        ),
+        useMaterial3: true,
+      ),
+      home: const LoginPage(),
+      routes: {
+        '/home': (context) => const HomePage(),
+        '/bible': (context) => const BiblePage(),
+        '/profile': (context) => const ProfilePage(),
+      },
+    );
+  }
 }

@@ -1,6 +1,6 @@
 {
-    "name": "ibc_app",
-    "short_name": "ibc_app",
+    "name": "igreja_app",
+    "short_name": "igreja_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
